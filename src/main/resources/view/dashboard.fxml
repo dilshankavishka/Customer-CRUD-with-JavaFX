@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="562.0" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Dashboard">
+   <children>
+      <Label layoutX="194.0" layoutY="25.0" text="Thogakade">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAdd" layoutX="152.0" layoutY="94.0" mnemonicParsing="false" onAction="#addCustomer" prefHeight="50.0" prefWidth="257.0" text="Add Customer">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSearch" layoutX="152.0" layoutY="169.0" mnemonicParsing="false" onAction="#searchCustomer" prefHeight="50.0" prefWidth="257.0" text="Search Customer">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdate" layoutX="152.0" layoutY="251.0" mnemonicParsing="false" onAction="#updateCustomer" prefHeight="50.0" prefWidth="257.0" text="Update Customer">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDelete" layoutX="152.0" layoutY="331.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="50.0" prefWidth="257.0" text="Delete Customer">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCustomerForm" layoutX="152.0" layoutY="410.0" mnemonicParsing="false" onAction="#CustomerForm" prefHeight="50.0" prefWidth="257.0" text="Customer Form">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
